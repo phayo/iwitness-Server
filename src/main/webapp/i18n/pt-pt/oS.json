@@ -1,0 +1,9 @@
+{
+  "iwitnessApp": {
+    "OS": {
+      "null": "",
+      "ANDROID_OS": "android",
+      "IOS": "ios"
+    }
+  }
+}

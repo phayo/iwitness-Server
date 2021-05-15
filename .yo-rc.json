@@ -41,7 +41,9 @@
     "creationTimestamp": 1621039636712,
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Device", "Capture", "Tag"],
+    "lastLiquibaseTimestamp": 1621039791000
   },
   "git-provider": "GitHub",
   "git-company": "phayo",

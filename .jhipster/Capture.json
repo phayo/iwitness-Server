@@ -1,0 +1,87 @@
+{
+  "name": "Capture",
+  "fields": [
+    {
+      "fieldName": "duration",
+      "fieldType": "Duration"
+    },
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cloudUrl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "recordStartTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "recordEndTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "cloudUploadStartTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "cloudUploadploadEndTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "serverUploadTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "publicHash",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "latitude",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "longitude",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "hash",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "captureMode",
+      "fieldType": "CaptureMode",
+      "fieldValues": "DIRECT (direct),INDIRECT (indirect),PANIC (panic)"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "device",
+      "otherEntityRelationshipName": "capture",
+      "relationshipName": "device"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "tag",
+      "otherEntityRelationshipName": "capture",
+      "relationshipName": "tags"
+    }
+  ],
+  "entityTableName": "capture",
+  "dto": "mapstruct",
+  "pagination": "infinite-scroll",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "searchEngine": "elasticsearch",
+  "changelogDate": "20210515004950"
+}

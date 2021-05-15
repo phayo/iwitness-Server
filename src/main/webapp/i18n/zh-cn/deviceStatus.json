@@ -1,0 +1,11 @@
+{
+  "iwitnessApp": {
+    "DeviceStatus": {
+      "null": "",
+      "BLACKLISTED": "BLACKLISTED",
+      "UNVERIFIED": "UNVERIFIED",
+      "TRUSTED": "TRUSTED",
+      "LINKED": "LINKED"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+
+@dto(mapstruct)
+@service(serviceImpl)
+entity Device(device) {
+	type String,
+    blacklisted Boolean,
+    hash String,
+    name String,
+    linkDate Instant,
+    blacklistDate Instant,
+    blacklistReason String,
+    imei String,
+    cameraPermGranted Instant,
+    locationPermGranted Instant,
+    bgInternetPermGranted Instant,
+    status DeviceStatus,
+    os OS
+}
+
+enum DeviceStatus{
+	BLACKLISTED,
+    UNVERIFIED,
+    TRUSTED,
+    LINKED
+}
+
+enum OS{
+	ANDROID_OS(android),
+    IOS(ios)
+}
+
+@paginate(infinite-scroll)
+@service(serviceImpl)
+@dto(mapstruct)
+entity Capture(capture) {
+	duration Duration,
+    title String,
+    description String,
+    cloudUrl String,
+    recordStartTime Instant,
+    recordEndTime Instant,
+    cloudUploadStartTime Instant,
+    cloudUploadploadEndTime Instant,
+    serverUploadTime Instant,
+    publicHash String,
+    latitude Double,
+    longitude Double,
+    hash String,
+    captureMode CaptureMode
+}
+
+enum CaptureMode {
+	DIRECT(direct),
+    INDIRECT(indirect),
+    PANIC(panic)
+}
+
+entity Tag {
+	tagName String minlength(2) maxlength(20)
+}
+
+relationship OneToMany {
+  Capture{device} to Device
+}
+
+relationship OneToMany {
+  Capture{tags} to Tag 
+}
+
+search Device, Capture  with elasticsearch

@@ -1,0 +1,78 @@
+{
+  "name": "Device",
+  "fields": [
+    {
+      "fieldName": "type",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "blacklisted",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "hash",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "linkDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "blacklistDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "blacklistReason",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "imei",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cameraPermGranted",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "locationPermGranted",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "bgInternetPermGranted",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "DeviceStatus",
+      "fieldValues": "BLACKLISTED,UNVERIFIED,TRUSTED,LINKED"
+    },
+    {
+      "fieldName": "os",
+      "fieldType": "OS",
+      "fieldValues": "ANDROID_OS (android),IOS (ios)"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "capture",
+      "otherEntityRelationshipName": "device",
+      "relationshipName": "capture"
+    }
+  ],
+  "entityTableName": "device",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "searchEngine": "elasticsearch",
+  "changelogDate": "20210515004949"
+}

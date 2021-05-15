@@ -1,0 +1,26 @@
+{
+  "iwitnessApp": {
+    "tag": {
+      "home": {
+        "title": "Tags",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Tag",
+        "createOrEditLabel": "Criar ou editar Tag",
+        "search": "Procurar por Tag",
+        "notFound": "Nenhum Tags encontrado"
+      },
+      "created": "Um novo Tag foi criado com o identificador {{ param }}",
+      "updated": "Tag com identificador {{ param }} foi actualizado",
+      "deleted": "Tag com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Tag {{ id }}?"
+      },
+      "detail": {
+        "title": "Tag"
+      },
+      "id": "ID",
+      "tagName": "Tag Name",
+      "capture": "Capture"
+    }
+  }
+}
