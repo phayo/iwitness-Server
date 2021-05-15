@@ -1,0 +1,9 @@
+export enum DeviceStatus {
+  BLACKLISTED = 'BLACKLISTED',
+
+  UNVERIFIED = 'UNVERIFIED',
+
+  TRUSTED = 'TRUSTED',
+
+  LINKED = 'LINKED',
+}

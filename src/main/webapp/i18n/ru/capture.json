@@ -1,0 +1,40 @@
+{
+  "iwitnessApp": {
+    "capture": {
+      "home": {
+        "title": "Captures",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Capture",
+        "createOrEditLabel": "Создать или отредактировать Capture",
+        "search": "Найти Capture",
+        "notFound": "Captures не найдено"
+      },
+      "created": "Новый Capture создан с идентификатором {{ param }}",
+      "updated": "Capture обновлен с идентификатором {{ param }}",
+      "deleted": "Capture удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Capture {{ id }}?"
+      },
+      "detail": {
+        "title": "Capture"
+      },
+      "id": "ID",
+      "duration": "Duration",
+      "title": "Title",
+      "description": "Description",
+      "cloudUrl": "Cloud Url",
+      "recordStartTime": "Record Start Time",
+      "recordEndTime": "Record End Time",
+      "cloudUploadStartTime": "Cloud Upload Start Time",
+      "cloudUploadploadEndTime": "Cloud Uploadpload End Time",
+      "serverUploadTime": "Server Upload Time",
+      "publicHash": "Public Hash",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "hash": "Hash",
+      "captureMode": "Capture Mode",
+      "device": "Device",
+      "tags": "Tags"
+    }
+  }
+}

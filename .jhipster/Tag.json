@@ -1,0 +1,30 @@
+{
+  "name": "Tag",
+  "fields": [
+    {
+      "fieldName": "tagName",
+      "fieldType": "String",
+      "fieldValidateRules": ["minlength", "maxlength"],
+      "fieldValidateRulesMinlength": "2",
+      "fieldValidateRulesMaxlength": "20"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "capture",
+      "otherEntityRelationshipName": "tags",
+      "relationshipName": "capture"
+    }
+  ],
+  "entityTableName": "tag",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210515004951"
+}

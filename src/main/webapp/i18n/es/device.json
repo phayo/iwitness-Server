@@ -1,0 +1,38 @@
+{
+  "iwitnessApp": {
+    "device": {
+      "home": {
+        "title": "Devices",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Device",
+        "createOrEditLabel": "Crear o editar Device",
+        "search": "Buscar Device",
+        "notFound": "Ningún Devices encontrado"
+      },
+      "created": "Un nuevo Device ha sido creado con el identificador {{ param }}",
+      "updated": "Un Device ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Device ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Device {{ id }}?"
+      },
+      "detail": {
+        "title": "Device"
+      },
+      "id": "ID",
+      "type": "Type",
+      "blacklisted": "Blacklisted",
+      "hash": "Hash",
+      "name": "Name",
+      "linkDate": "Link Date",
+      "blacklistDate": "Blacklist Date",
+      "blacklistReason": "Blacklist Reason",
+      "imei": "Imei",
+      "cameraPermGranted": "Camera Perm Granted",
+      "locationPermGranted": "Location Perm Granted",
+      "bgInternetPermGranted": "Bg Internet Perm Granted",
+      "status": "Status",
+      "os": "Os",
+      "capture": "Capture"
+    }
+  }
+}

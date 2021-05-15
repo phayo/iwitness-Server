@@ -1,0 +1,40 @@
+{
+  "iwitnessApp": {
+    "capture": {
+      "home": {
+        "title": "Capture",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Capture",
+        "createOrEditLabel": "Dodaj lub edytuj: Capture",
+        "search": "Szukaj Capture",
+        "notFound": "No Captures found"
+      },
+      "created": "Utworzono nowy obiekt typu Capture z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Capture z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Capture z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Capture {{ id }}?"
+      },
+      "detail": {
+        "title": "Capture"
+      },
+      "id": "ID",
+      "duration": "Duration",
+      "title": "Title",
+      "description": "Description",
+      "cloudUrl": "Cloud Url",
+      "recordStartTime": "Record Start Time",
+      "recordEndTime": "Record End Time",
+      "cloudUploadStartTime": "Cloud Upload Start Time",
+      "cloudUploadploadEndTime": "Cloud Uploadpload End Time",
+      "serverUploadTime": "Server Upload Time",
+      "publicHash": "Public Hash",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "hash": "Hash",
+      "captureMode": "Capture Mode",
+      "device": "Device",
+      "tags": "Tags"
+    }
+  }
+}

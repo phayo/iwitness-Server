@@ -1,0 +1,40 @@
+{
+  "iwitnessApp": {
+    "capture": {
+      "home": {
+        "title": "Captures",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Capture",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Capture",
+        "search": "Tìm Capture",
+        "notFound": "No Captures found"
+      },
+      "created": "Một Capture mới được tạo với định danh {{ param }}",
+      "updated": "Một Capture cập nhật với định danh {{ param }}",
+      "deleted": "Một Capture đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Capture {{ id }}?"
+      },
+      "detail": {
+        "title": "Capture"
+      },
+      "id": "ID",
+      "duration": "Duration",
+      "title": "Title",
+      "description": "Description",
+      "cloudUrl": "Cloud Url",
+      "recordStartTime": "Record Start Time",
+      "recordEndTime": "Record End Time",
+      "cloudUploadStartTime": "Cloud Upload Start Time",
+      "cloudUploadploadEndTime": "Cloud Uploadpload End Time",
+      "serverUploadTime": "Server Upload Time",
+      "publicHash": "Public Hash",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "hash": "Hash",
+      "captureMode": "Capture Mode",
+      "device": "Device",
+      "tags": "Tags"
+    }
+  }
+}

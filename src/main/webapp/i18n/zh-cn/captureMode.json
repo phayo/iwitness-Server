@@ -1,0 +1,10 @@
+{
+  "iwitnessApp": {
+    "CaptureMode": {
+      "null": "",
+      "DIRECT": "direct",
+      "INDIRECT": "indirect",
+      "PANIC": "panic"
+    }
+  }
+}
